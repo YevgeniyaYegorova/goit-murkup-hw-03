@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container main-nav">
+        <nav class="container">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-accent">Studio</span></a
+          >
+          <ul class="site-nav">
+            <li>
+              <a href="./index.html">Студія</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="current">Портфоліо</a>
+            </li>
+            <li>
+              <a href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container">
+          <ul class="contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Наши работы</h1>
+      <section>
+        <div class="container">
+          <h2 class="visually-hidden">Фильтр</h2>
+          <ul class="buttons">
+            <li>
+              <button type="button" class="button secondary">Все</button>
+            </li>
+            <li>
+              <button type="button" class="button secondary">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="button secondary">Приложения</button>
+            </li>
+            <li>
+              <button type="button" class="button secondary">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="button secondary">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <h2 class="visually-hidden">Список карточек</h2>
+          <ul class="carts">
+            <li>
+              <img
+                src="images/tekhno.jpg"
+                width="370"
+                height="294"
+                alt="Фото сайта"
+              />
+              <h3 class="cart-title">Технокряк</h3>
+              <p class="cart-text">Веб-сайт</p>
+            </li>
+            <li>
+              <img
+                src="images/poster.jpg"
+                width="370"
+                height="294"
+                alt="Фото постера"
+              />
+              <h3 class="cart-title">Постер New Orlean vs Golden Star</h3>
+              <p class="cart-text">Дизайн</p>
+            </li>
+            <li>
+              <img
+                src="images/seafood.jpg"
+                width="370"
+                height="294"
+                alt="Фото приложения для ресторана"
+              />
+              <h3 class="cart-title">Ресторан Seafood</h3>
+              <p class="cart-text">Приложение</p>
+            </li>
+            <li>
+              <img
+                src="images/prime.jpg"
+                width="370"
+                height="294"
+                alt="Фото наушников"
+              />
+              <h3 class="cart-title">Проект Prime</h3>
+              <p class="cart-text">Маркетинг</p>
+            </li>
+            <li>
+              <img
+                src="images/box.jpg"
+                width="370"
+                height="294"
+                alt="Фото дизайна коробок"
+              />
+              <h3 class="cart-title">Проект Boxes</h3>
+              <p class="cart-text">Приложение</p>
+            </li>
+            <li>
+              <img
+                src="images/inspir.jpg"
+                width="370"
+                height="294"
+                alt="Фото монитора"
+              />
+              <h3 class="cart-title">Inspiration has no Borders</h3>
+              <p class="cart-text">Веб-сайт</p>
+            </li>
+            <li>
+              <img
+                src="images/la.jpg"
+                width="370"
+                height="294"
+                alt="Фото книги"
+              />
+              <h3 class="cart-title">Издание Limited Edition</h3>
+              <p class="cart-text">Дизайн</p>
+            </li>
+            <li>
+              <img
+                src="images/lab.jpg"
+                width="370"
+                height="294"
+                alt="Фото бирки"
+              />
+              <h3 class="cart-title">Проект LAB</h3>
+              <p class="cart-text">Маркетинг</p>
+            </li>
+            <li>
+              <img
+                src="images/growwing.jpg"
+                width="370"
+                height="294"
+                alt="Фото ноутбука"
+              />
+              <h3 class="cart-title">Growing Business</h3>
+              <p class="cart-text">Приложение</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo-link" href="./index.html"
+          >Web<span class="logo-accent">Studio</span></a
+        >
+        <address>
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
