@@ -75,8 +75,8 @@ img {
   padding-left: 0px;
   margin-top: 0px;
   display: flex;
-  margin-left: auto;
 }
+
 .site-nav {
   padding-left: 0px;
   margin-top: 0px;
@@ -252,6 +252,12 @@ img {
 .team-list {
   display: flex;
 }
+.team-list li {
+  margin-right: 30px;
+}
+.team-list li:last-child {
+  margin-right: 0px;
+}
 .team-text {
   font-weight: 400;
   font-size: 16px;
@@ -260,8 +266,7 @@ img {
   margin-bottom: 30px;
 }
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 188px;
 }
 /* Подвал */
 .footer {
@@ -298,6 +303,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-top: 60px;
 }
 .footer .logo-link {
   color: var(--accent-color);
@@ -308,9 +314,24 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-top: 60px;
 }
 address {
   font-style: normal;
+}
+address p {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.contacts-footer {
+  list-style: line-through;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.contacts-footer li {
+  margin-bottom: 9px;
 }
 /* Портфолио */
 /* Кнопки */
