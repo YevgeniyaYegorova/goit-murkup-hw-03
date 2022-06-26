@@ -33,6 +33,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -52,9 +64,14 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-features {
+  padding-top: 94px;
+  padding-bottom: 0px;
+}
 .nav-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .head-nav {
   display: flex;
@@ -164,7 +181,7 @@ img {
   text-align: center;
   width: 1600;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: #ffffff;
@@ -234,7 +251,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .features-text {
   font-weight: 400;
@@ -350,7 +367,7 @@ address p {
   padding-left: 0px;
   margin-top: 0px;
 }
-.contacts-footer li {
+.contacts-footer li:first-child {
   margin-bottom: 9px;
 }
 /* Портфолио */
